@@ -23,21 +23,20 @@ struct LandingView: View {
                 case .success(let characters):
                     let charactersWithImages = characters.compactMap { $0 }
                     
-                    List(charactersWithImages, id: \.id) { character in
-                        
-                        NavigationLink(destination: CharacterDetailView(character: character)) {
-                            CharacterRowView(character: character)
-                        }
-                    }
-                    
-                    .onAppear {
-                        if characters.isEmpty {
-                            viewModel.fetchCharacters(page: viewModel.currentPage) // Fetch first page
-                        } else if let lastCharacter = characters.last {
-                            if lastCharacter == character {
-                                viewModel.currentPage += 1 // Increment page
-                                viewModel.fetchCharacters(page: viewModel.currentPage) // Fetch next page
+                    List {
+                        ForEach(charactersWithImages, id: \.id) { character in
+                            
+                            NavigationLink(destination: CharacterDetailView(character: character)) {
+                                CharacterRowView(character: character)
                             }
+                            // This will trigger loading more when the last character appears
+                            .onAppear {
+                                if character == characters.last {
+                                    viewModel.currentPage += 1 // Increment page
+                                    viewModel.fetchCharacters(page: viewModel.currentPage) // Fetch next page
+                                }
+                            }
+                            
                         }
                     }
                     .listStyle(PlainListStyle())
@@ -47,6 +46,10 @@ struct LandingView: View {
                 case .idle:
                     Text("No characters available.")
                 }
+            }
+        }.onAppear{
+            if viewModel.characterState == .idle {
+                viewModel.fetchCharacters(page: viewModel.currentPage)
             }
         }
         Text(authViewModel.currentUser?.name ?? "loading")
