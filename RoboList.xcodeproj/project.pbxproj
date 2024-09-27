@@ -3,10 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BC74B5587863472B0751D7 /* Pods_RoboList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432EDB026935891FE8EF5052 /* Pods_RoboList.framework */; };
+		0D19E70C2CA666520035A9E1 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E70B2CA666520035A9E1 /* LottieView.swift */; };
+		0D19E70E2CA6666B0035A9E1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E70D2CA6666B0035A9E1 /* Constants.swift */; };
+		0D19E7132CA666C30035A9E1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7122CA666C30035A9E1 /* LoginView.swift */; };
+		0D19E7152CA666D80035A9E1 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7142CA666D80035A9E1 /* RegisterView.swift */; };
+		0D19E7192CA6679F0035A9E1 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7182CA6679F0035A9E1 /* Router.swift */; };
+		0D19E71B2CA667AD0035A9E1 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E71A2CA667AD0035A9E1 /* SplashScreen.swift */; };
+		0D19E71D2CA667B90035A9E1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E71C2CA667B90035A9E1 /* HomeView.swift */; };
+		0D19E71F2CA667DF0035A9E1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E71E2CA667DF0035A9E1 /* ProfileView.swift */; };
+		0D19E7212CA667F80035A9E1 /* RoboDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7202CA667F80035A9E1 /* RoboDetailsView.swift */; };
+		0D19E7262CA6687F0035A9E1 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7252CA6687F0035A9E1 /* Styles.swift */; };
+		0D19E7282CA668C70035A9E1 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7272CA668C70035A9E1 /* Resources.swift */; };
+		0D19E72E2CA66A220035A9E1 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E72D2CA66A220035A9E1 /* Network.swift */; };
+		0D19E7342CA66D9E0035A9E1 /* RickAndMortyReserve.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 0D19E7332CA66D9E0035A9E1 /* RickAndMortyReserve.graphql */; };
+		0D19E73A2CA671CE0035A9E1 /* MyApi in Frameworks */ = {isa = PBXBuildFile; productRef = 0D19E7392CA671CE0035A9E1 /* MyApi */; };
+		0D19E73D2CA673270035A9E1 /* CharacterRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E73C2CA673270035A9E1 /* CharacterRepository.swift */; };
+		0D19E73F2CA674140035A9E1 /* GetCharacterUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E73E2CA674140035A9E1 /* GetCharacterUseCase.swift */; };
+		0D19E7422CA674890035A9E1 /* CharacterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7412CA674890035A9E1 /* CharacterImpl.swift */; };
+		0D19E7442CA676670035A9E1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7432CA676670035A9E1 /* MainViewModel.swift */; };
+		0D19E7462CA677850035A9E1 /* UiState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7452CA677850035A9E1 /* UiState.swift */; };
+		0D19E7492CA68BD20035A9E1 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 0D19E7482CA68BD20035A9E1 /* Apollo */; };
+		0D19E74B2CA68F110035A9E1 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E74A2CA68F110035A9E1 /* AuthenticationViewModel.swift */; };
+		0D19E74D2CA694F30035A9E1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E74C2CA694F30035A9E1 /* User.swift */; };
+		0D19E74F2CA698C10035A9E1 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E74E2CA698C10035A9E1 /* UserRepository.swift */; };
+		0D19E7512CA698F20035A9E1 /* UserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7502CA698F20035A9E1 /* UserUseCase.swift */; };
+		0D19E7532CA69A850035A9E1 /* UserRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7522CA69A850035A9E1 /* UserRepositoryImpl.swift */; };
+		0D19E7552CA69B1C0035A9E1 /* EncryptionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7542CA69B1C0035A9E1 /* EncryptionHelper.swift */; };
+		0D19E7572CA69F220035A9E1 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7562CA69F220035A9E1 /* LandingView.swift */; };
+		0D19E7592CA6A0160035A9E1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7582CA6A0160035A9E1 /* LoadingView.swift */; };
+		0D19E75B2CA6B4A80035A9E1 /* KeyStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E75A2CA6B4A80035A9E1 /* KeyStorage.swift */; };
 		0D996E3E2CA65E0700E31C28 /* RoboListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D996E3D2CA65E0700E31C28 /* RoboListApp.swift */; };
 		0D996E402CA65E0700E31C28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D996E3F2CA65E0700E31C28 /* ContentView.swift */; };
 		0D996E422CA65E0800E31C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D996E412CA65E0800E31C28 /* Assets.xcassets */; };
@@ -14,6 +44,8 @@
 		0D996E4F2CA65E0900E31C28 /* RoboListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D996E4E2CA65E0900E31C28 /* RoboListTests.swift */; };
 		0D996E592CA65E0900E31C28 /* RoboListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D996E582CA65E0900E31C28 /* RoboListUITests.swift */; };
 		0D996E5B2CA65E0900E31C28 /* RoboListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D996E5A2CA65E0900E31C28 /* RoboListUITestsLaunchTests.swift */; };
+		A077DB1E0F500D2D702EF4E8 /* Pods_RoboList_RoboListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EF93473C8D121F37EB8D6F /* Pods_RoboList_RoboListUITests.framework */; };
+		A629B9ECBA81E020ED364C73 /* Pods_RoboListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14112828FB5970DC9D86A49C /* Pods_RoboListTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +66,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D19E70B2CA666520035A9E1 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		0D19E70D2CA6666B0035A9E1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0D19E7122CA666C30035A9E1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0D19E7142CA666D80035A9E1 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		0D19E7182CA6679F0035A9E1 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		0D19E71A2CA667AD0035A9E1 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		0D19E71C2CA667B90035A9E1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0D19E71E2CA667DF0035A9E1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0D19E7202CA667F80035A9E1 /* RoboDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboDetailsView.swift; sourceTree = "<group>"; };
+		0D19E7252CA6687F0035A9E1 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		0D19E7272CA668C70035A9E1 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		0D19E72D2CA66A220035A9E1 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		0D19E72F2CA66A6D0035A9E1 /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		0D19E7332CA66D9E0035A9E1 /* RickAndMortyReserve.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = RickAndMortyReserve.graphql; sourceTree = "<group>"; };
+		0D19E73C2CA673270035A9E1 /* CharacterRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRepository.swift; sourceTree = "<group>"; };
+		0D19E73E2CA674140035A9E1 /* GetCharacterUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCharacterUseCase.swift; sourceTree = "<group>"; };
+		0D19E7412CA674890035A9E1 /* CharacterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterImpl.swift; sourceTree = "<group>"; };
+		0D19E7432CA676670035A9E1 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		0D19E7452CA677850035A9E1 /* UiState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiState.swift; sourceTree = "<group>"; };
+		0D19E7472CA67C670035A9E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0D19E74A2CA68F110035A9E1 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		0D19E74C2CA694F30035A9E1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0D19E74E2CA698C10035A9E1 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		0D19E7502CA698F20035A9E1 /* UserUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUseCase.swift; sourceTree = "<group>"; };
+		0D19E7522CA69A850035A9E1 /* UserRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryImpl.swift; sourceTree = "<group>"; };
+		0D19E7542CA69B1C0035A9E1 /* EncryptionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionHelper.swift; sourceTree = "<group>"; };
+		0D19E7562CA69F220035A9E1 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		0D19E7582CA6A0160035A9E1 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		0D19E75A2CA6B4A80035A9E1 /* KeyStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStorage.swift; sourceTree = "<group>"; };
 		0D996E3A2CA65E0700E31C28 /* RoboList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoboList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D996E3D2CA65E0700E31C28 /* RoboListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboListApp.swift; sourceTree = "<group>"; };
 		0D996E3F2CA65E0700E31C28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +105,15 @@
 		0D996E542CA65E0900E31C28 /* RoboListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoboListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D996E582CA65E0900E31C28 /* RoboListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboListUITests.swift; sourceTree = "<group>"; };
 		0D996E5A2CA65E0900E31C28 /* RoboListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		14112828FB5970DC9D86A49C /* Pods_RoboListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoboListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		432EDB026935891FE8EF5052 /* Pods_RoboList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoboList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3078BBA189830A558B20AD /* Pods-RoboList-RoboListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoboList-RoboListUITests.release.xcconfig"; path = "Target Support Files/Pods-RoboList-RoboListUITests/Pods-RoboList-RoboListUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5CC7A59D25F93F2695234483 /* Pods-RoboListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoboListTests.release.xcconfig"; path = "Target Support Files/Pods-RoboListTests/Pods-RoboListTests.release.xcconfig"; sourceTree = "<group>"; };
+		647A74D6219612C9ED54B674 /* Pods-RoboList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoboList.debug.xcconfig"; path = "Target Support Files/Pods-RoboList/Pods-RoboList.debug.xcconfig"; sourceTree = "<group>"; };
+		72EF93473C8D121F37EB8D6F /* Pods_RoboList_RoboListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoboList_RoboListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C441CC804AED6145198BFCB0 /* Pods-RoboList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoboList.release.xcconfig"; path = "Target Support Files/Pods-RoboList/Pods-RoboList.release.xcconfig"; sourceTree = "<group>"; };
+		CB033888C4AF321FE6F5AE85 /* Pods-RoboList-RoboListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoboList-RoboListUITests.debug.xcconfig"; path = "Target Support Files/Pods-RoboList-RoboListUITests/Pods-RoboList-RoboListUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D98B1550043FB2F6709733EF /* Pods-RoboListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoboListTests.debug.xcconfig"; path = "Target Support Files/Pods-RoboListTests/Pods-RoboListTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +121,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D19E73A2CA671CE0035A9E1 /* MyApi in Frameworks */,
+				0D19E7492CA68BD20035A9E1 /* Apollo in Frameworks */,
+				04BC74B5587863472B0751D7 /* Pods_RoboList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A629B9ECBA81E020ED364C73 /* Pods_RoboListTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +139,187 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A077DB1E0F500D2D702EF4E8 /* Pods_RoboList_RoboListUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D19E7042CA665920035A9E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E7252CA6687F0035A9E1 /* Styles.swift */,
+				0D19E7272CA668C70035A9E1 /* Resources.swift */,
+				0D19E7452CA677850035A9E1 /* UiState.swift */,
+				0D19E7582CA6A0160035A9E1 /* LoadingView.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0D19E7052CA6659C0035A9E1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E73B2CA672F70035A9E1 /* Repository */,
+				0D19E72A2CA669C50035A9E1 /* DataSource */,
+				0D19E7092CA666180035A9E1 /* Entity */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0D19E7062CA665EF0035A9E1 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E7072CA665FF0035A9E1 /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		0D19E7072CA665FF0035A9E1 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E73E2CA674140035A9E1 /* GetCharacterUseCase.swift */,
+				0D19E7502CA698F20035A9E1 /* UserUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		0D19E7082CA666100035A9E1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E7172CA6678A0035A9E1 /* StartUp */,
+				0D19E7162CA666E20035A9E1 /* MainScreens */,
+				0D19E70F2CA6669A0035A9E1 /* Authentication */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		0D19E7092CA666180035A9E1 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E74C2CA694F30035A9E1 /* User.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		0D19E70A2CA666230035A9E1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E70B2CA666520035A9E1 /* LottieView.swift */,
+				0D19E70D2CA6666B0035A9E1 /* Constants.swift */,
+				0D19E7542CA69B1C0035A9E1 /* EncryptionHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0D19E70F2CA6669A0035A9E1 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E7112CA666AE0035A9E1 /* Views */,
+				0D19E7102CA666A50035A9E1 /* ViewModel */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		0D19E7102CA666A50035A9E1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E74A2CA68F110035A9E1 /* AuthenticationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0D19E7112CA666AE0035A9E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E7122CA666C30035A9E1 /* LoginView.swift */,
+				0D19E7142CA666D80035A9E1 /* RegisterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0D19E7162CA666E20035A9E1 /* MainScreens */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E7232CA668470035A9E1 /* ViewModel */,
+				0D19E7222CA668150035A9E1 /* Views */,
+			);
+			path = MainScreens;
+			sourceTree = "<group>";
+		};
+		0D19E7172CA6678A0035A9E1 /* StartUp */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E7242CA6684E0035A9E1 /* Views */,
+			);
+			path = StartUp;
+			sourceTree = "<group>";
+		};
+		0D19E7222CA668150035A9E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E71C2CA667B90035A9E1 /* HomeView.swift */,
+				0D19E71E2CA667DF0035A9E1 /* ProfileView.swift */,
+				0D19E7202CA667F80035A9E1 /* RoboDetailsView.swift */,
+				0D19E7562CA69F220035A9E1 /* LandingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0D19E7232CA668470035A9E1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E7432CA676670035A9E1 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0D19E7242CA6684E0035A9E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E7182CA6679F0035A9E1 /* Router.swift */,
+				0D19E71A2CA667AD0035A9E1 /* SplashScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0D19E7292CA669B30035A9E1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E72F2CA66A6D0035A9E1 /* schema.json */,
+				0D19E72D2CA66A220035A9E1 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0D19E72A2CA669C50035A9E1 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E7402CA6746C0035A9E1 /* Implementations */,
+				0D19E7292CA669B30035A9E1 /* Network */,
+				0D19E75A2CA6B4A80035A9E1 /* KeyStorage.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		0D19E73B2CA672F70035A9E1 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E73C2CA673270035A9E1 /* CharacterRepository.swift */,
+				0D19E74E2CA698C10035A9E1 /* UserRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		0D19E7402CA6746C0035A9E1 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				0D19E7412CA674890035A9E1 /* CharacterImpl.swift */,
+				0D19E7522CA69A850035A9E1 /* UserRepositoryImpl.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
 		0D996E312CA65E0700E31C28 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +327,8 @@
 				0D996E4D2CA65E0900E31C28 /* RoboListTests */,
 				0D996E572CA65E0900E31C28 /* RoboListUITests */,
 				0D996E3B2CA65E0700E31C28 /* Products */,
+				E2C5D25B52EE6F1FE16BD05E /* Pods */,
+				223235EF16885FF6A92C3AD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +345,17 @@
 		0D996E3C2CA65E0700E31C28 /* RoboList */ = {
 			isa = PBXGroup;
 			children = (
+				0D19E7472CA67C670035A9E1 /* Info.plist */,
+				0D19E70A2CA666230035A9E1 /* Utils */,
+				0D19E7082CA666100035A9E1 /* Presentation */,
+				0D19E7062CA665EF0035A9E1 /* Domain */,
+				0D19E7052CA6659C0035A9E1 /* Data */,
+				0D19E7042CA665920035A9E1 /* Resources */,
 				0D996E3D2CA65E0700E31C28 /* RoboListApp.swift */,
 				0D996E3F2CA65E0700E31C28 /* ContentView.swift */,
 				0D996E412CA65E0800E31C28 /* Assets.xcassets */,
 				0D996E432CA65E0800E31C28 /* Preview Content */,
+				0D19E7332CA66D9E0035A9E1 /* RickAndMortyReserve.graphql */,
 			);
 			path = RoboList;
 			sourceTree = "<group>";
@@ -127,6 +385,29 @@
 			path = RoboListUITests;
 			sourceTree = "<group>";
 		};
+		223235EF16885FF6A92C3AD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				432EDB026935891FE8EF5052 /* Pods_RoboList.framework */,
+				72EF93473C8D121F37EB8D6F /* Pods_RoboList_RoboListUITests.framework */,
+				14112828FB5970DC9D86A49C /* Pods_RoboListTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2C5D25B52EE6F1FE16BD05E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				647A74D6219612C9ED54B674 /* Pods-RoboList.debug.xcconfig */,
+				C441CC804AED6145198BFCB0 /* Pods-RoboList.release.xcconfig */,
+				CB033888C4AF321FE6F5AE85 /* Pods-RoboList-RoboListUITests.debug.xcconfig */,
+				4D3078BBA189830A558B20AD /* Pods-RoboList-RoboListUITests.release.xcconfig */,
+				D98B1550043FB2F6709733EF /* Pods-RoboListTests.debug.xcconfig */,
+				5CC7A59D25F93F2695234483 /* Pods-RoboListTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +415,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D996E5E2CA65E0900E31C28 /* Build configuration list for PBXNativeTarget "RoboList" */;
 			buildPhases = (
+				F3F6EBE2029BD123E6EF5258 /* [CP] Check Pods Manifest.lock */,
 				0D996E362CA65E0700E31C28 /* Sources */,
 				0D996E372CA65E0700E31C28 /* Frameworks */,
 				0D996E382CA65E0700E31C28 /* Resources */,
+				25E59BAA26A559DE6871A20F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RoboList;
+			packageProductDependencies = (
+				0D19E7392CA671CE0035A9E1 /* MyApi */,
+				0D19E7482CA68BD20035A9E1 /* Apollo */,
+			);
 			productName = RoboList;
 			productReference = 0D996E3A2CA65E0700E31C28 /* RoboList.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +438,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D996E612CA65E0900E31C28 /* Build configuration list for PBXNativeTarget "RoboListTests" */;
 			buildPhases = (
+				F9E188225F8779214FE5784F /* [CP] Check Pods Manifest.lock */,
 				0D996E462CA65E0900E31C28 /* Sources */,
 				0D996E472CA65E0900E31C28 /* Frameworks */,
 				0D996E482CA65E0900E31C28 /* Resources */,
@@ -169,9 +457,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D996E642CA65E0900E31C28 /* Build configuration list for PBXNativeTarget "RoboListUITests" */;
 			buildPhases = (
+				41C3B361A4D1CADA46E1CEDB /* [CP] Check Pods Manifest.lock */,
 				0D996E502CA65E0900E31C28 /* Sources */,
 				0D996E512CA65E0900E31C28 /* Frameworks */,
 				0D996E522CA65E0900E31C28 /* Resources */,
+				1916BAC929B46D458DBA5AE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +505,10 @@
 				Base,
 			);
 			mainGroup = 0D996E312CA65E0700E31C28;
+			packageReferences = (
+				0D19E7032CA6647A0035A9E1 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				0D19E7382CA671CE0035A9E1 /* XCLocalSwiftPackageReference "MyApi" */,
+			);
 			productRefGroup = 0D996E3B2CA65E0700E31C28 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +525,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D19E7342CA66D9E0035A9E1 /* RickAndMortyReserve.graphql in Resources */,
 				0D996E452CA65E0800E31C28 /* Preview Assets.xcassets in Resources */,
 				0D996E422CA65E0800E31C28 /* Assets.xcassets in Resources */,
 			);
@@ -252,13 +547,142 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1916BAC929B46D458DBA5AE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoboList-RoboListUITests/Pods-RoboList-RoboListUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoboList-RoboListUITests/Pods-RoboList-RoboListUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoboList-RoboListUITests/Pods-RoboList-RoboListUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25E59BAA26A559DE6871A20F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoboList/Pods-RoboList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoboList/Pods-RoboList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoboList/Pods-RoboList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41C3B361A4D1CADA46E1CEDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoboList-RoboListUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3F6EBE2029BD123E6EF5258 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoboList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9E188225F8779214FE5784F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoboListTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D996E362CA65E0700E31C28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D19E74F2CA698C10035A9E1 /* UserRepository.swift in Sources */,
+				0D19E71B2CA667AD0035A9E1 /* SplashScreen.swift in Sources */,
+				0D19E71F2CA667DF0035A9E1 /* ProfileView.swift in Sources */,
+				0D19E74D2CA694F30035A9E1 /* User.swift in Sources */,
 				0D996E402CA65E0700E31C28 /* ContentView.swift in Sources */,
+				0D19E75B2CA6B4A80035A9E1 /* KeyStorage.swift in Sources */,
+				0D19E7262CA6687F0035A9E1 /* Styles.swift in Sources */,
 				0D996E3E2CA65E0700E31C28 /* RoboListApp.swift in Sources */,
+				0D19E7212CA667F80035A9E1 /* RoboDetailsView.swift in Sources */,
+				0D19E7592CA6A0160035A9E1 /* LoadingView.swift in Sources */,
+				0D19E70C2CA666520035A9E1 /* LottieView.swift in Sources */,
+				0D19E71D2CA667B90035A9E1 /* HomeView.swift in Sources */,
+				0D19E7512CA698F20035A9E1 /* UserUseCase.swift in Sources */,
+				0D19E7192CA6679F0035A9E1 /* Router.swift in Sources */,
+				0D19E7532CA69A850035A9E1 /* UserRepositoryImpl.swift in Sources */,
+				0D19E7152CA666D80035A9E1 /* RegisterView.swift in Sources */,
+				0D19E7572CA69F220035A9E1 /* LandingView.swift in Sources */,
+				0D19E73F2CA674140035A9E1 /* GetCharacterUseCase.swift in Sources */,
+				0D19E7422CA674890035A9E1 /* CharacterImpl.swift in Sources */,
+				0D19E7132CA666C30035A9E1 /* LoginView.swift in Sources */,
+				0D19E70E2CA6666B0035A9E1 /* Constants.swift in Sources */,
+				0D19E72E2CA66A220035A9E1 /* Network.swift in Sources */,
+				0D19E7282CA668C70035A9E1 /* Resources.swift in Sources */,
+				0D19E7552CA69B1C0035A9E1 /* EncryptionHelper.swift in Sources */,
+				0D19E74B2CA68F110035A9E1 /* AuthenticationViewModel.swift in Sources */,
+				0D19E73D2CA673270035A9E1 /* CharacterRepository.swift in Sources */,
+				0D19E7442CA676670035A9E1 /* MainViewModel.swift in Sources */,
+				0D19E7462CA677850035A9E1 /* UiState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +756,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -395,7 +819,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -416,19 +840,23 @@
 		};
 		0D996E5F2CA65E0900E31C28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647A74D6219612C9ED54B674 /* Pods-RoboList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RoboList/Preview Content\"";
+				DEVELOPMENT_TEAM = H4C5S2486B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoboList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,19 +872,23 @@
 		};
 		0D996E602CA65E0900E31C28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C441CC804AED6145198BFCB0 /* Pods-RoboList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RoboList/Preview Content\"";
+				DEVELOPMENT_TEAM = H4C5S2486B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoboList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,6 +904,7 @@
 		};
 		0D996E622CA65E0900E31C28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98B1550043FB2F6709733EF /* Pods-RoboListTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +924,7 @@
 		};
 		0D996E632CA65E0900E31C28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CC7A59D25F93F2695234483 /* Pods-RoboListTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +944,7 @@
 		};
 		0D996E652CA65E0900E31C28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB033888C4AF321FE6F5AE85 /* Pods-RoboList-RoboListUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +962,7 @@
 		};
 		0D996E662CA65E0900E31C28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D3078BBA189830A558B20AD /* Pods-RoboList-RoboListUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -582,6 +1018,36 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0D19E7382CA671CE0035A9E1 /* XCLocalSwiftPackageReference "MyApi" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MyApi;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0D19E7032CA6647A0035A9E1 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.15.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0D19E7392CA671CE0035A9E1 /* MyApi */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyApi;
+		};
+		0D19E7482CA68BD20035A9E1 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D19E7032CA6647A0035A9E1 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0D996E322CA65E0700E31C28 /* Project object */;
 }

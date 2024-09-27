@@ -1,0 +1,29 @@
+{
+  "schemaNamespace" : "MyApi",
+  "input" : {
+      "operationSearchPaths" : [
+        "./RoboList/**/*.graphql"
+      ],
+      "schemaSearchPaths" : [
+        "./RoboList/Data/DataSource/Network/schema.json"
+      ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "./MyApi",
+      "moduleType" : {
+        "swiftPackageManager" : {
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  }
+}
+

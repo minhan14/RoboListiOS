@@ -1,0 +1,6 @@
+framework module Pods_RoboList_RoboListUITests {
+  umbrella header "Pods-RoboList-RoboListUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

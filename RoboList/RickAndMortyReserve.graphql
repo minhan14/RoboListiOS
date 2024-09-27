@@ -1,0 +1,25 @@
+
+query getCharacters($page:Int,$filterName:String!){
+  characters(page:$page,filter:{
+    name:$filterName
+  }){
+    info{
+      count
+      pages
+      next
+      prev
+    }
+    results{
+      id
+      name
+      status
+      species
+      location{
+        id
+        dimension
+      }
+      image
+    }
+  }
+}
+

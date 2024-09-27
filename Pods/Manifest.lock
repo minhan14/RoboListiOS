@@ -1,0 +1,36 @@
+PODS:
+  - FLAnimatedImage (1.0.17)
+  - Gifu (3.3.1)
+  - JellyGif (1.0.2)
+  - Kingfisher (7.12.0)
+  - lottie-ios (4.5.0)
+  - SSSwiftUIGIFView (2.0.0)
+
+DEPENDENCIES:
+  - FLAnimatedImage (~> 1.0)
+  - Gifu
+  - JellyGif
+  - Kingfisher (~> 7.0)
+  - lottie-ios
+  - SSSwiftUIGIFView
+
+SPEC REPOS:
+  trunk:
+    - FLAnimatedImage
+    - Gifu
+    - JellyGif
+    - Kingfisher
+    - lottie-ios
+    - SSSwiftUIGIFView
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: bbf914596368867157cc71b38a8ec834b3eeb32b
+  Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
+  JellyGif: 52b7569b7015f3b1ab2a6be30e4a81d47f974c97
+  Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
+  lottie-ios: a881093fab623c467d3bce374367755c272bdd59
+  SSSwiftUIGIFView: 3e420565110744e0216fd09c7751fccf8e223065
+
+PODFILE CHECKSUM: 50590e91c37819c95e97ecea83a6b40f45fcd155
+
+COCOAPODS: 1.15.2
