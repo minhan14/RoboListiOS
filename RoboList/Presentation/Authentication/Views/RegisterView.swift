@@ -47,7 +47,6 @@ struct RegisterView: View {
             
             // Register Button
             Button(action: {
-                
                 authViewModel.registerUser(name: name, password: password,confirmPassword: confirmPassword)
             }) {
                 Text("Register")

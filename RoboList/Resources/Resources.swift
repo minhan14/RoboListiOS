@@ -444,18 +444,28 @@ func hideKeyboard() {
 
 
 struct DependencyProvider {
-    static func makeAuthenticationViewModel() -> AuthenticationViewModel {
-        let schema = Schema([User.self])
+    static func makeModelContext() -> ModelContext {
+        let schema = Schema([User.self, Character.self])
         let container = try! ModelContainer(for: schema, configurations: [])
-        let context = ModelContext(container)
+        return ModelContext(container)
+    }
+    
+    static func makeAuthenticationViewModel() -> AuthenticationViewModel {
+        let context = makeModelContext()
         let userRepo = UserRepositoryImpl(context: context)
         let userUseCase = UserUseCase(repo: userRepo)
         return AuthenticationViewModel(userRepository: userUseCase)
     }
+    
+    //      static func makeFavViewModel() -> FavoriteViewModel {
+    //          let context = makeModelContext()
+    //          return FavoriteViewModel(context: context)
+    //      }
 }
 
 extension View {
     func withAuthenticationViewModel() -> some View {
         self.environmentObject(DependencyProvider.makeAuthenticationViewModel())
     }
+    
 }

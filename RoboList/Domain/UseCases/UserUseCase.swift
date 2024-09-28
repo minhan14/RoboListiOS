@@ -8,6 +8,8 @@
 import Foundation
 
 struct UserUseCase: UserRepository{
+ 
+    
     
     let repo: UserRepository
     
@@ -21,6 +23,18 @@ struct UserUseCase: UserRepository{
     
     func getUserByName(name: String) -> User? {
         repo.getUserByName(name: name)
+    }
+    
+    func getLoggedInUser() -> User? {
+        repo.getLoggedInUser()
+    }
+    
+    func updateUser(_ user: User) {
+        repo.updateUser(user)
+    }
+    
+    func logout() {
+        repo.logout()
     }
     
 }

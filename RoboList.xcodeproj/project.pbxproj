@@ -16,7 +16,6 @@
 		0D19E71B2CA667AD0035A9E1 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E71A2CA667AD0035A9E1 /* SplashScreen.swift */; };
 		0D19E71D2CA667B90035A9E1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E71C2CA667B90035A9E1 /* HomeView.swift */; };
 		0D19E71F2CA667DF0035A9E1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E71E2CA667DF0035A9E1 /* ProfileView.swift */; };
-		0D19E7212CA667F80035A9E1 /* RoboDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7202CA667F80035A9E1 /* RoboDetailsView.swift */; };
 		0D19E7262CA6687F0035A9E1 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7252CA6687F0035A9E1 /* Styles.swift */; };
 		0D19E7282CA668C70035A9E1 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7272CA668C70035A9E1 /* Resources.swift */; };
 		0D19E72E2CA66A220035A9E1 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E72D2CA66A220035A9E1 /* Network.swift */; };
@@ -37,6 +36,7 @@
 		0D19E7572CA69F220035A9E1 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7562CA69F220035A9E1 /* LandingView.swift */; };
 		0D19E7592CA6A0160035A9E1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E7582CA6A0160035A9E1 /* LoadingView.swift */; };
 		0D19E75B2CA6B4A80035A9E1 /* KeyStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19E75A2CA6B4A80035A9E1 /* KeyStorage.swift */; };
+		0D6C694C2CA81C84005EDCAB /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6C694B2CA81C84005EDCAB /* Character.swift */; };
 		0D996E3E2CA65E0700E31C28 /* RoboListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D996E3D2CA65E0700E31C28 /* RoboListApp.swift */; };
 		0D996E402CA65E0700E31C28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D996E3F2CA65E0700E31C28 /* ContentView.swift */; };
 		0D996E422CA65E0800E31C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D996E412CA65E0800E31C28 /* Assets.xcassets */; };
@@ -74,7 +74,6 @@
 		0D19E71A2CA667AD0035A9E1 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		0D19E71C2CA667B90035A9E1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0D19E71E2CA667DF0035A9E1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		0D19E7202CA667F80035A9E1 /* RoboDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboDetailsView.swift; sourceTree = "<group>"; };
 		0D19E7252CA6687F0035A9E1 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		0D19E7272CA668C70035A9E1 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		0D19E72D2CA66A220035A9E1 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
@@ -95,6 +94,7 @@
 		0D19E7562CA69F220035A9E1 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		0D19E7582CA6A0160035A9E1 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		0D19E75A2CA6B4A80035A9E1 /* KeyStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStorage.swift; sourceTree = "<group>"; };
+		0D6C694B2CA81C84005EDCAB /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		0D996E3A2CA65E0700E31C28 /* RoboList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoboList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D996E3D2CA65E0700E31C28 /* RoboListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboListApp.swift; sourceTree = "<group>"; };
 		0D996E3F2CA65E0700E31C28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -198,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				0D19E74C2CA694F30035A9E1 /* User.swift */,
+				0D6C694B2CA81C84005EDCAB /* Character.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -260,7 +261,6 @@
 			children = (
 				0D19E71C2CA667B90035A9E1 /* HomeView.swift */,
 				0D19E71E2CA667DF0035A9E1 /* ProfileView.swift */,
-				0D19E7202CA667F80035A9E1 /* RoboDetailsView.swift */,
 				0D19E7562CA69F220035A9E1 /* LandingView.swift */,
 			);
 			path = Views;
@@ -663,13 +663,13 @@
 				0D19E75B2CA6B4A80035A9E1 /* KeyStorage.swift in Sources */,
 				0D19E7262CA6687F0035A9E1 /* Styles.swift in Sources */,
 				0D996E3E2CA65E0700E31C28 /* RoboListApp.swift in Sources */,
-				0D19E7212CA667F80035A9E1 /* RoboDetailsView.swift in Sources */,
 				0D19E7592CA6A0160035A9E1 /* LoadingView.swift in Sources */,
 				0D19E70C2CA666520035A9E1 /* LottieView.swift in Sources */,
 				0D19E71D2CA667B90035A9E1 /* HomeView.swift in Sources */,
 				0D19E7512CA698F20035A9E1 /* UserUseCase.swift in Sources */,
 				0D19E7192CA6679F0035A9E1 /* Router.swift in Sources */,
 				0D19E7532CA69A850035A9E1 /* UserRepositoryImpl.swift in Sources */,
+				0D6C694C2CA81C84005EDCAB /* Character.swift in Sources */,
 				0D19E7152CA666D80035A9E1 /* RegisterView.swift in Sources */,
 				0D19E7572CA69F220035A9E1 /* LandingView.swift in Sources */,
 				0D19E73F2CA674140035A9E1 /* GetCharacterUseCase.swift in Sources */,

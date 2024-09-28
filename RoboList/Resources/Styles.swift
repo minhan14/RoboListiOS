@@ -102,14 +102,14 @@ extension View {
 
 extension View {
     @ViewBuilder
-    var conditionalHorizontalContainerFrame: some View {
+    func conditionalHorizontalContainerFrame(dimens: CGFloat) -> some View {
         if #available(iOS 17.0, *) {
             self.containerRelativeFrame(.horizontal) { size, axis in
-                size * 0.6
+                size * dimens
             }
         } else {
             let screenSize = UIScreen.main.bounds.size
-            let height = screenSize.height * 0.6
+            let height = screenSize.height * dimens
             self.frame(height: height)
         }
     }

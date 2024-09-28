@@ -7,9 +7,11 @@
 
 import Foundation
 import SwiftData
+import SwiftUI
 
 struct UserRepositoryImpl: UserRepository {
     
+    @AppStorage("loggedInUser") var loggedInUser: String = ""
     private let context: ModelContext
       
       init(context: ModelContext) {
@@ -63,5 +65,38 @@ struct UserRepositoryImpl: UserRepository {
         }
     }
     
-    
+//    func getLoggedInUser() -> User? {
+//        return try? User.decodeFromString(loggedInUser)
+//    }
+//    
+//    func updateUser(_ user: User) {
+//        if let encodedUser = try? user.encodeToString(){
+//            self.loggedInUser = encodedUser
+//        }
+//    }
+//    func logout() {
+//        self.loggedInUser = ""
+//    }
+    func getLoggedInUser() -> User? {
+           do {
+               return try User.decodeFromString(loggedInUser)
+           } catch {
+               print("Failed to decode user: \(error)")
+               return nil
+           }
+       }
+       
+       func updateUser(_ user: User) {
+           do {
+                let encodedUser = try user.encodeToString()
+                self.loggedInUser = encodedUser
+               
+           } catch {
+               print("Failed to encode user: \(error)")
+           }
+       }
+       
+       func logout() {
+           self.loggedInUser = ""
+       }
 }

@@ -12,7 +12,7 @@ import SwiftData
 struct RoboListApp: App {
     
     let container: ModelContainer = {
-        let schema = Schema([User.self])
+        let schema = Schema([User.self,Character.self,Location.self])
         let container = try! ModelContainer(for: schema, configurations: [])
         return container
     }()
@@ -30,7 +30,7 @@ struct RoboListApp: App {
     
     var body: some Scene {
         WindowGroup {
-            Router().environmentObject(mainViewModel).environmentObject(authenticationViewModel)
+            Router().environmentObject(mainViewModel).environmentObject(authenticationViewModel).edgesIgnoringSafeArea(.all)
         }
 //        .modelContainer(for: [User.self])
         .modelContainer(container)

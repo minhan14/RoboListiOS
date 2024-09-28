@@ -14,6 +14,7 @@ struct LoadingView<Content>: View where Content: View {
     
     var body: some View {
         ZStack(alignment: .center) {
+           
             if (!self.isShowing) {
                 self.content()
             } else {
@@ -33,7 +34,8 @@ struct LoadingView<Content>: View where Content: View {
                     self.animate.toggle()
                 }
             }
-        }
+        }.padding(.top,50)
+        .edgesIgnoringSafeArea(.all)
     }
 }
 

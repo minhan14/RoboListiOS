@@ -16,6 +16,7 @@ struct Router: View {
     var body: some View {
         if active {
             if authViewModel.currentUser != nil{
+                
                 LandingView().environmentObject(authViewModel)
             }else{
                 LoginView().environmentObject(authViewModel)
